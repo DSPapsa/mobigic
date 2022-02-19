@@ -1,0 +1,118 @@
+body {
+    background: #e69d2f;
+  }
+  
+  .puzzleWrap {
+    width: 850px;
+    margin: 50px auto 0;
+  }
+  
+  p {
+    font: 22pt italic;
+    margin: 20px 20px 0px 45px;
+    color: #f72b1c;
+  }
+  
+  
+  #puzzle {
+    padding: 20px;
+    float: left;
+    margin: 30px 20px;
+    width: 500px;
+  }
+  
+  #puzzle div {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+ 
+  #puzzle .puzzleSquare {
+    height: 30px;
+    width: 30px;
+    text-transform: uppercase;
+    background-color:#e69d2f;
+    border: 0;
+    outline: none;
+    font: italic;
+    color:  #f72b1c;
+  }
+  
+  button::-moz-focus-inner {
+    border: none;
+    outline: none;
+  }
+  
+ 
+  #puzzle .selected {
+    color: #2e01f7;
+    outline: none;
+    
+    
+  }
+  #puzzle .found {
+    color:#c4c4c4;
+  }
+  
+  #puzzle .solved {
+    color:  #2e01f7;
+  }
+  
+  
+  #puzzle .complete {
+    background-color: green;
+  }
+  
+  
+  #words {
+     padding-top: 20px;
+     -moz-column-count: 2;
+     -moz-column-gap: 20px;
+     -webkit-column-count: 2;
+     -webkit-column-gap: 20px;
+     column-count: 2;
+     column-gap: 20px;
+    width: 250px;
+    color: #6891ad;
+    float: left;
+    margin-top: 37px;
+  }
+  
+  #words ul {
+    list-style-type: none;
+  }
+  
+  #words li {
+    padding:  0 0 7px;
+    font: 1em sans-serif;
+    display: inline-block;
+    float: left;
+    width: 100px;
+  }
+  
+ 
+  #words .wordFound {
+    text-decoration: line-through;
+    color: #2e01f7;
+  }
+  
+  
+  #solve {
+    margin: 30px 30px 0 40px;
+    
+    background: transparent;
+    color:  #2e01f7;
+    padding: 10px 20px;
+    border: 2px solid  #2e01f7;
+    border-radius: 0px;
+    opacity: .5;
+    transition: opacity .25s ease-in;
+    
+   
+  }
+  .focus {
+    border: none;
+  }
+  .hover, .gameSolved {
+    opacity: 1;
+  }
